@@ -8,8 +8,7 @@ fn set_card() -> Vec<[u32; 5]> {
             if i == 2 && j == 2 {
                 continue;
             }
-            let mut num = rng.gen_range(1..99);
-            card[i][j] = num;
+            let mut num = rng.gen_range(1..99, 24);
         }
     }
     card
