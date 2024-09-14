@@ -4,7 +4,8 @@
 // mod maze2;
 // mod vec_demo;
 // mod bmi;
-mod heights;
+// mod heights;
+mod enq2;
 
 fn main() {
     // bigint::run();
@@ -13,5 +14,6 @@ fn main() {
     // bingo3::run();
     // vec_demo::run();
     // bmi::run();
-    heights::run();
+    // heights::run();
+    enq2::run();
 }
