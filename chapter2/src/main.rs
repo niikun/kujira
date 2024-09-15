@@ -5,7 +5,8 @@
 // mod vec_demo;
 // mod bmi;
 // mod heights;
-mod enq2;
+// mod enq2;
+mod cli_demo;
 
 fn main() {
     // bigint::run();
@@ -15,5 +16,6 @@ fn main() {
     // vec_demo::run();
     // bmi::run();
     // heights::run();
-    enq2::run();
+    // enq2::run();
+    cli_demo::run();
 }
