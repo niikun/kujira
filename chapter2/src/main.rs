@@ -6,7 +6,8 @@
 // mod bmi;
 // mod heights;
 // mod enq2;
-mod cli_demo;
+// mod cli_demo;
+mod read_file2;
 
 fn main() {
     // bigint::run();
@@ -17,5 +18,6 @@ fn main() {
     // bmi::run();
     // heights::run();
     // enq2::run();
-    cli_demo::run();
+    // cli_demo::run();
+    read_file2::run();
 }
