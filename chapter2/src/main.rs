@@ -7,7 +7,10 @@
 // mod heights;
 // mod enq2;
 // mod cli_demo;
-mod read_file2;
+// mod read_file2;
+// mod hash_demo;
+// mod cmptext;
+mod jisho;
 
 fn main() {
     // bigint::run();
@@ -19,5 +22,8 @@ fn main() {
     // heights::run();
     // enq2::run();
     // cli_demo::run();
-    read_file2::run();
+    // read_file2::run();
+    // hash_demo::run();
+    // cmptext::run();
+    jisho::run();
 }
