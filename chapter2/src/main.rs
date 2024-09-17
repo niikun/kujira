@@ -10,7 +10,10 @@
 // mod read_file2;
 // mod hash_demo;
 // mod cmptext;
-mod jisho;
+// mod jisho;
+// mod fizbuz;
+// mod rec_sum;
+mod rec_fib;
 
 fn main() {
     // bigint::run();
@@ -25,5 +28,8 @@ fn main() {
     // read_file2::run();
     // hash_demo::run();
     // cmptext::run();
-    jisho::run();
+    // jisho::run();
+    // fizbuz::run();
+    // rec_sum::run();
+    rec_fib::run();
 }
