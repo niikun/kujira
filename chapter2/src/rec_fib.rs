@@ -8,6 +8,7 @@ fn fib(n: i32) -> i32 {
 }
 
 pub fn run() {
-    let num = fib(5);
-    println!("{}", num);
+    for i in 0..=10 {
+        println!("fib({}) = {}", i, fib(i));
+    }
 }

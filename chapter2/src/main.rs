@@ -13,7 +13,8 @@
 // mod jisho;
 // mod fizbuz;
 // mod rec_sum;
-mod rec_fib;
+// mod rec_fib;
+mod cur_files;
 
 fn main() {
     // bigint::run();
@@ -31,5 +32,6 @@ fn main() {
     // jisho::run();
     // fizbuz::run();
     // rec_sum::run();
-    rec_fib::run();
+    // rec_fib::run();
+    cur_files::run();
 }
